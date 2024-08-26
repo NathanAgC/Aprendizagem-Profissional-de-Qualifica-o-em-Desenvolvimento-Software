@@ -1,0 +1,23 @@
+/*Funções e Operações Numéricos SQL*/
+Select 1;
+
+Select 1 + 1;
+
+Select - (2);
+
+Select 4/3;
+
+Select 10 div 2;
+
+Select  abs(-2);
+
+Select pow(2, 3);
+
+Select * from tb_cli
+Where cli_nome like '%Ana%';
+
+/*Funções Data e Hora MySQL*/
+Select now();
+Select year('2020-09-21 23:33:25');
+Select day('2020-09-21 23:33:25');
+Select month('2020-09-21 23:33:25');
