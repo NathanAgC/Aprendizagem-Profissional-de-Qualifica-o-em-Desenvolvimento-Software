@@ -1,5 +1,6 @@
 /*01. Criando Banco de Dados - Aquivos*/
  create database AutoViaLocadora;
+ use AutoViaLocadora;
  CREATE TABLE Marcas (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(50) NOT NULL UNIQUE
